@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { ThemeProvider } from 'styled-components';
+import Quiz from 'pages/Quiz';
+import { theme } from './styles/global';
+import Landing from 'pages/Landing';
 
-function App() {
+const App = () => {
+  const [isQuizStarted, setIsQuizStarted] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <>
+        {isQuizStarted ? (
+          <Quiz />
+        ) : (
+          <Landing startQuiz={() => setIsQuizStarted(true)} />
+        )}
+      </>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
