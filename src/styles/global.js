@@ -5,10 +5,18 @@ export const theme = {
     tealLight: '#34d1d1',
     tealDark: '#0c3c3d',
     grey: '#494949',
+    lightGrey: '#6c6c6c',
     white: '#fff',
     lightCyan: 'lightCyan',
+    lightTeal: '#e5f5f4',
   },
-  textSizes: {},
+  textSizes: {
+    small: '12px',
+    regular: '14px',
+    medium: '16px',
+    large: '18px',
+    xLarge: '80px',
+  },
   fonts: {
     montserrat: 'Montserrat',
     sansSerif: 'sans-serif',
@@ -26,7 +34,7 @@ const globalStyle = createGlobalStyle`
 
   html {
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   *, *:before, *:after {
@@ -35,7 +43,7 @@ const globalStyle = createGlobalStyle`
 
   body {
     margin: 0;
-    font-family: "Open Sans", sans-serif';
+    font-family: "Open Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
