@@ -22,27 +22,27 @@ const Footer = () => {
         <LogoContainer xs={12} sm={3}>
           <Logo size='med' />
         </LogoContainer>
-        <Col xs={12} sm={2}>
+        <Col xs={4} sm={2}>
           <GroupText>Product</GroupText>
           <LinkText>Popular</LinkText>
           <LinkText>Trending</LinkText>
           <LinkText>Guided</LinkText>
           <LinkText>Products</LinkText>
         </Col>
-        <Col sm={2}>
+        <Col xs={4} sm={2}>
           <GroupText>Company</GroupText>
           <LinkText>Press Releases</LinkText>
           <LinkText>Mission</LinkText>
           <LinkText>Strategy</LinkText>
           <LinkText>About</LinkText>
         </Col>
-        <Col sm={2}>
+        <Col xs={4} sm={2}>
           <GroupText>Info</GroupText>
           <LinkText>Support</LinkText>
           <LinkText>Customer Service</LinkText>
           <LinkText>Get Started Guide</LinkText>
         </Col>
-        <Col sm={3}>
+        <Col xs={12} sm={3}>
           <GroupText>Follow us</GroupText>
           <IconContainer>
             <Icon>

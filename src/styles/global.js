@@ -1,5 +1,12 @@
 import { createGlobalStyle } from 'styled-components';
 
+export const breakpoints = {
+  sm: `(max-width: 576px)`,
+  md: `(max-width: 768px)`,
+  lg: `(max-width: 992px)`,
+  xl: `(max-width: 1200px)`,
+};
+
 export const theme = {
   colors: {
     tealLight: '#34d1d1',

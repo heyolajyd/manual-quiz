@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { breakpoints } from 'styles/global';
 
 export const QuestionContainer = styled.section`
   display: block;
@@ -24,6 +25,10 @@ export const Item = styled.li`
 
   &:hover {
     background-color: ${(props) => props.theme.colors.lightCyan};
+  }
+
+  @media ${breakpoints.sm} {
+    padding: 5px;
   }
 `;
 

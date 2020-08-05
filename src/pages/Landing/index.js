@@ -36,7 +36,7 @@ const Landing = ({ startQuiz }) => {
       <ProductSection>
         <h2>What we can help with</h2>
         <ProductItem>
-          <img src={HairLoss} alt='hair loss' />
+          <img src={HairLoss} alt='hair-loss' />
           <ProductDetails>
             <NumberText>01</NumberText>
             <ProductSpec>

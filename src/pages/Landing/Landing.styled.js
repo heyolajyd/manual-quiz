@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { breakpoints } from 'styles/global';
 
 export const Hero = styled.section`
   background: url(/assets/hair-cat-header.png) center;
@@ -16,6 +17,10 @@ export const Hero = styled.section`
       line-height: 26px;
     }
   }
+
+  @media ${breakpoints.sm} {
+    padding: 30px 0 0 40px;
+  }
 `;
 
 export const HeroText = styled.h1`
@@ -28,6 +33,12 @@ export const HeroText = styled.h1`
   max-width: 600px;
   margin-bottom: 0;
   line-height: 98px;
+
+  @media ${breakpoints.sm} {
+    max-width: unset;
+    font-size: 50px;
+    line-height: 1.5;
+  }
 `;
 
 export const ProductSection = styled.section`
@@ -39,6 +50,12 @@ export const ProductSection = styled.section`
     font-size: 36px;
     font-family: ${(props) => props.theme.fonts.helvetica};
     font-weight: ${(props) => props.theme.fontWeight.regular};
+  }
+
+  @media ${breakpoints.sm} {
+    h2 {
+      font-size: 30px;
+    }
   }
 `;
 
@@ -62,6 +79,16 @@ export const ProductItem = styled.div`
       margin-left: -9%;
     }
   }
+
+  @media ${breakpoints.sm} {
+    margin-top: unset;
+    img {
+      display: none;
+    }
+  }
+
+  @media ${breakpoints.md} {
+  }
 `;
 
 export const ProductDetails = styled.div`
@@ -74,6 +101,14 @@ export const NumberText = styled.span`
   font-weight: ${(props) => props.theme.fontWeight.bold};
   color: #eeeeee;
   font-size: 427px;
+
+  @media ${breakpoints.md} {
+    font-size: 395px;
+  }
+
+  @media ${breakpoints.sm} {
+    font-size: 300px;
+  }
 `;
 
 export const ProductSpec = styled.article`
@@ -100,6 +135,19 @@ export const ProductSpec = styled.article`
     top: 30%;
     left: 13%;
     text-align: right;
+  }
+
+  @media ${breakpoints.sm} {
+    top: 10%;
+    left: 10%;
+  }
+
+  @media ${breakpoints.md} {
+    left: 20%;
+
+    &.reversed {
+      left: 20%;
+    }
   }
 `;
 

@@ -1,13 +1,24 @@
 import styled from 'styled-components';
 import { Col } from 'react-bootstrap';
+import { breakpoints } from 'styles/global';
 
 export const Wrapper = styled.footer`
   padding: 78px 40px 0;
   background-color: ${(props) => props.theme.colors.lightTeal};
+
+  @media ${breakpoints.sm} {
+    padding-top: 40px;
+  }
 `;
 
 export const LogoContainer = styled(Col)`
   padding-left: 38px;
+
+  @media ${breakpoints.sm} {
+    padding-left: unset;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 `;
 
 export const GroupText = styled.h5`

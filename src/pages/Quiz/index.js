@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { getQuestion } from 'utils/request';
 import ProgressBar from 'components/ProgressBar';
 import Result from 'components/Result';
-import { QuizContainer, QuizContent } from './Quiz.styled';
 import Header from 'components/Header';
 import Question from 'components/Question';
+import { QuizContainer, QuizContent } from './Quiz.styled';
 
 const Quiz = () => {
   const [questions, setQuestions] = useState([]);
