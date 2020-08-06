@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quiz page should match snapshot 1`] = `
+<div>
+  <section
+    class="sc-fzplWN iwfOcV"
+  >
+    <div
+      class="sc-AxjAm hUTlVe"
+    >
+      <div
+        class="sc-AxirZ fCefnb"
+        width="0"
+      />
+    </div>
+    <section
+      class="sc-fznyAO bCqqLA"
+    >
+      <div
+        class="sc-AxgMl fFPQpl"
+      >
+        <h1
+          class="sc-AxheI UZKLG"
+        >
+          Question 
+          1
+           of 
+          0
+        </h1>
+      </div>
+      <section
+        class="sc-Axmtr KZRLv"
+      >
+        <div
+          class="sc-AxmLO hFmTzr"
+        />
+        <ul
+          class="sc-fzozJi jANZmt"
+        />
+      </section>
+    </section>
+  </section>
+</div>
+`;

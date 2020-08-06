@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing page should match snapshot 1`] = `
+<div>
+  <main>
+    <section
+      class="sc-fzoLsD epcALz"
+    >
+      <svg
+        class="sc-AxirZ ktiAvJ"
+      >
+        manual.svg
+      </svg>
+      <h1
+        class="sc-fzpans cQhUVb"
+      >
+        <div>
+          Be good
+        </div>
+        <div>
+          to yourself
+        </div>
+      </h1>
+      <article>
+        <p>
+          We’re working around the clock to bring you a holistic approach to your wellness. From top to bottom, inside and out.
+        </p>
+      </article>
+      <button
+        class="sc-AxjAm ewqnpQ"
+      >
+        TAKE THE QUIZ
+      </button>
+    </section>
+    <section
+      class="sc-fzplWN kpDZxX"
+    >
+      <h2>
+        What we can help with
+      </h2>
+      <div
+        class="sc-fznyAO kGYtkF"
+      >
+        <img
+          alt="hair-loss"
+          src="hair-photo.png"
+        />
+        <div
+          class="sc-fznKkj javTWE"
+        >
+          <span
+            class="sc-fznZeY dtsngr"
+          >
+            01
+          </span>
+          <article
+            class="sc-fzokOt EwiZm"
+          >
+            <h6
+              class="sc-fzqBZW bpmzeA"
+            >
+              Hair Loss
+            </h6>
+            <h5>
+              Hair loss needn’t be irreversible. We can help!
+            </h5>
+            <p>
+              Hair loss needn’t be irreversible. There’s a scientifically proven way that’s most effective in keeping and regrowing your hair. It’s all to do with blocking a pesky hormone called DHT. That’s the bad guy behind hair loss. And you can keep him at bay. The choice is yours.
+            </p>
+          </article>
+        </div>
+      </div>
+      <div
+        class="sc-fznyAO kGYtkF reversed"
+      >
+        <div
+          class="sc-fznKkj javTWE"
+        >
+          <span
+            class="sc-fznZeY dtsngr"
+          >
+            02
+          </span>
+          <article
+            class="sc-fzokOt EwiZm reversed"
+          >
+            <h6
+              class="sc-fzqBZW bpmzeA"
+            >
+              Erectile Dysfunction
+            </h6>
+            <h5>
+              Erections can be a tricky thing. But no need to feel down!
+            </h5>
+            <p>
+              There are plenty of reasons why you might be having difficulty in the erection department. We can help you figure out possible reasons why. And prescribe a pill if needed.
+            </p>
+          </article>
+        </div>
+        <img
+          alt="sex"
+          src="sex-photo.png"
+        />
+      </div>
+    </section>
+    <footer
+      class="sc-AxiKw dpzIdq"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="sc-AxhCb hAtPWR col-sm-3 col-12"
+        >
+          <svg
+            class="sc-AxirZ bEopbj"
+            height="75"
+            width="80"
+          >
+            manual.svg
+          </svg>
+        </div>
+        <div
+          class="col-sm-2 col-4"
+        >
+          <h5
+            class="sc-AxhUy kaKyLb"
+          >
+            Product
+          </h5>
+          <a
+            class="sc-AxgMl gwITOl"
+          >
+            Popular
+          </a>
+          <a
+            class="sc-AxgMl gwITOl"
+          >
+            Trending
+          </a>
+          <a
+            class="sc-AxgMl gwITOl"
+          >
+            Guided
+          </a>
+          <a
+            class="sc-AxgMl gwITOl"
+          >
+            Products
+          </a>
+        </div>
+        <div
+          class="col-sm-2 col-4"
+        >
+          <h5
+            class="sc-AxhUy kaKyLb"
+          >
+            Company
+          </h5>
+          <a
+            class="sc-AxgMl gwITOl"
+          >
+            Press Releases
+          </a>
+          <a
+            class="sc-AxgMl gwITOl"
+          >
+            Mission
+          </a>
+          <a
+            class="sc-AxgMl gwITOl"
+          >
+            Strategy
+          </a>
+          <a
+            class="sc-AxgMl gwITOl"
+          >
+            About
+          </a>
+        </div>
+        <div
+          class="col-sm-2 col-4"
+        >
+          <h5
+            class="sc-AxhUy kaKyLb"
+          >
+            Info
+          </h5>
+          <a
+            class="sc-AxgMl gwITOl"
+          >
+            Support
+          </a>
+          <a
+            class="sc-AxgMl gwITOl"
+          >
+            Customer Service
+          </a>
+          <a
+            class="sc-AxgMl gwITOl"
+          >
+            Get Started Guide
+          </a>
+        </div>
+        <div
+          class="col-sm-3 col-12"
+        >
+          <h5
+            class="sc-AxhUy kaKyLb"
+          >
+            Follow us
+          </h5>
+          <div
+            class="sc-AxheI AYPRB"
+          >
+            <span
+              class="sc-Axmtr mRqjV"
+            >
+              <svg>
+                facebook.svg
+              </svg>
+            </span>
+            <span
+              class="sc-Axmtr mRqjV"
+            >
+              <svg>
+                twitter.svg
+              </svg>
+            </span>
+            <span
+              class="sc-Axmtr mRqjV"
+            >
+              <svg>
+                linkedin.svg
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm-12"
+        >
+          <hr
+            class="sc-AxmLO feTcaa"
+          />
+        </div>
+        <div
+          class="col-sm-12"
+        >
+          <div
+            class="sc-fzozJi ifFRQp"
+          >
+            © 2019 Manual. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+</div>
+`;

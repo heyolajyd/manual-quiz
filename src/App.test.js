@@ -1,9 +1,11 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, fireEvent } from '@testing-library/react';
 import App from './App';
 
-test('renders learn landing page', () => {
-  const { container } = render(<App />);
+describe('App', function () {
+  it('should match snapshot', () => {
+    const { container } = render(<App />);
 
-  expect(container).toMatchSnapshot();
+    expect(container).toMatchSnapshot();
+  });
 });
