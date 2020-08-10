@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should match snapshot 1`] = `
+.c2 {
+  width: 80;
+  height: 75;
+}
+
+.c0 {
+  padding: 78px 40px 0;
+  background-color: #e5f5f4;
+}
+
+.c1 {
+  padding-left: 38px;
+}
+
+.c3 {
+  font-size: 12px;
+  color: #34d1d1;
+  font-family: Montserrat;
+  font-weight: 700;
+  -webkit-letter-spacing: 2.4px;
+  -moz-letter-spacing: 2.4px;
+  -ms-letter-spacing: 2.4px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+
+.c4 {
+  display: block;
+  font-size: 14px;
+  color: #0c3c3d;
+  font-family: Helvetica Neue;
+  text-transform: capitalize;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.c4:hover {
+  color: inherit;
+}
+
+.c5 {
+  -webkit-flex: display;
+  -ms-flex: display;
+  flex: display;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c6 {
+  margin-right: 30px;
+}
+
+.c7 {
+  border-top: 1px solid #6c6c6c;
+  margin-top: 4rem;
+  margin-bottom: 0;
+  opacity: 0.3;
+}
+
+.c8 {
+  text-align: center;
+  margin: 1.5rem 0;
+  font-size: 12px;
+  color: rgba(108,108,108,0.5);
+}
+
+@media (max-width:576px) {
+  .c0 {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width:576px) {
+  .c1 {
+    padding-left: unset;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+<div>
+  <footer
+    class="c0"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="c1 col-sm-3 col-12"
+      >
+        <svg
+          class="c2"
+          height="75"
+          width="80"
+        >
+          manual.svg
+        </svg>
+      </div>
+      <div
+        class="col-sm-2 col-4"
+      >
+        <h5
+          class="c3"
+        >
+          Product
+        </h5>
+        <a
+          class="c4"
+        >
+          Popular
+        </a>
+        <a
+          class="c4"
+        >
+          Trending
+        </a>
+        <a
+          class="c4"
+        >
+          Guided
+        </a>
+        <a
+          class="c4"
+        >
+          Products
+        </a>
+      </div>
+      <div
+        class="col-sm-2 col-4"
+      >
+        <h5
+          class="c3"
+        >
+          Company
+        </h5>
+        <a
+          class="c4"
+        >
+          Press Releases
+        </a>
+        <a
+          class="c4"
+        >
+          Mission
+        </a>
+        <a
+          class="c4"
+        >
+          Strategy
+        </a>
+        <a
+          class="c4"
+        >
+          About
+        </a>
+      </div>
+      <div
+        class="col-sm-2 col-4"
+      >
+        <h5
+          class="c3"
+        >
+          Info
+        </h5>
+        <a
+          class="c4"
+        >
+          Support
+        </a>
+        <a
+          class="c4"
+        >
+          Customer Service
+        </a>
+        <a
+          class="c4"
+        >
+          Get Started Guide
+        </a>
+      </div>
+      <div
+        class="col-sm-3 col-12"
+      >
+        <h5
+          class="c3"
+        >
+          Follow us
+        </h5>
+        <div
+          class="c5"
+        >
+          <span
+            class="c6"
+          >
+            <svg>
+              facebook.svg
+            </svg>
+          </span>
+          <span
+            class="c6"
+          >
+            <svg>
+              twitter.svg
+            </svg>
+          </span>
+          <span
+            class="c6"
+          >
+            <svg>
+              linkedin.svg
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-sm-12"
+      >
+        <hr
+          class="c7"
+        />
+      </div>
+      <div
+        class="col-sm-12"
+      >
+        <div
+          class="c8"
+        >
+          © 2019 Manual. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

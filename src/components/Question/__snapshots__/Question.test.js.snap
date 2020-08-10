@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Question should match snapshot 1`] = `
+.c0 {
+  display: block;
+  -webkit-flex-basis: 200px;
+  -ms-flex-preferred-size: 200px;
+  flex-basis: 200px;
+}
+
+.c1 {
+  padding: 20px 0;
+}
+
+.c2 {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.c3 {
+  margin: 10px 0;
+  padding: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c3:hover {
+  background-color: lightCyan;
+}
+
+.c4 {
+  margin-left: 20px;
+}
+
+@media (max-width:576px) {
+  .c3 {
+    padding: 5px;
+  }
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      Test Question
+    </div>
+    <ul
+      class="c2"
+    >
+      <li
+        class="c3"
+      >
+        <div>
+          <h1>
+            Test Label
+          </h1>
+        </div>
+        <span
+          class="c4"
+        >
+          test value
+        </span>
+      </li>
+    </ul>
+  </section>
+</div>
+`;

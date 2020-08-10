@@ -6,6 +6,7 @@ export const getQuestion = async () => {
     const res = await fetch('./questions.json');
     return await res.json();
   } catch (err) {
-    return console.log('Failed to parse: ', JSON.stringify(err));
+    console.log('Failed to parse: ', JSON.stringify(err));
+    throw new Error(err);
   }
 };

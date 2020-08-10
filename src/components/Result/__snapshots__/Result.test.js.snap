@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Result should match snapshot 1`] = `
+.c2 {
+  background-color: #34d1d1;
+  cursor: pointer;
+  outline: none;
+  border-radius: 24px;
+  height: 48px;
+  padding: 10px 35px;
+  color: #fff;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-weight: 700;
+  -webkit-letter-spacing: 2.4px;
+  -moz-letter-spacing: 2.4px;
+  -ms-letter-spacing: 2.4px;
+  letter-spacing: 2.4px;
+  border: 0;
+  max-width: 220px;
+  box-shadow: 0 10px 30px -20px rgba(0,0,0,0.5);
+}
+
+.c2:disabled {
+  color: rgba(16,16,16,0.3);
+  background-color: rgba(239,239,239,0.3);
+  border-color: rgba(195,195,195,0.3);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.c1 {
+  color: #494949;
+  margin-bottom: 20px;
+}
+
+.c1 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-left: 2px;
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <span
+      class="c1"
+    >
+      Great news! We have the perfect treatment for your hair loss. Proceed to
+      <a
+        href="https://www.manual.co/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        www.manual.co
+      </a>
+      , and prepare to say hello to your new hair!
+    </span>
+    <button
+      class="c2"
+    >
+      Start Again
+    </button>
+  </section>
+</div>
+`;

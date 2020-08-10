@@ -1,5 +1,6 @@
 import React from 'react';
 import { fireEvent } from '@testing-library/react';
+import 'jest-styled-components';
 import { withThemeProvider } from 'utils/testUtils';
 import Landing from './index';
 

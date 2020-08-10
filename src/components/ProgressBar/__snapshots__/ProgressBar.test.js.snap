@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar should match snapshot 1`] = `
+.c0 {
+  height: 10px;
+}
+
+.c1 {
+  background-color: #0c3c3d;
+  height: inherit;
+  width: 33.33333333333333%;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+      width="33.33333333333333"
+    />
+  </div>
+</div>
+`;

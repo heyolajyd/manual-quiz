@@ -1,18 +1,314 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Landing page should match snapshot 1`] = `
+.c2 {
+  background-color: #34d1d1;
+  cursor: pointer;
+  outline: none;
+  border-radius: 24px;
+  height: 48px;
+  padding: 10px 35px;
+  color: #fff;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-weight: 700;
+  -webkit-letter-spacing: 2.4px;
+  -moz-letter-spacing: 2.4px;
+  -ms-letter-spacing: 2.4px;
+  letter-spacing: 2.4px;
+  border: 0;
+  max-width: 220px;
+  box-shadow: 0 10px 30px -20px rgba(0,0,0,0.5);
+}
+
+.c2:disabled {
+  color: rgba(16,16,16,0.3);
+  background-color: rgba(239,239,239,0.3);
+  border-color: rgba(195,195,195,0.3);
+}
+
+.c11 {
+  width: 80;
+  height: 75;
+}
+
+.c9 {
+  padding: 78px 40px 0;
+  background-color: #e5f5f4;
+}
+
+.c10 {
+  padding-left: 38px;
+}
+
+.c12 {
+  font-size: 12px;
+  color: #34d1d1;
+  font-family: Montserrat;
+  font-weight: 700;
+  -webkit-letter-spacing: 2.4px;
+  -moz-letter-spacing: 2.4px;
+  -ms-letter-spacing: 2.4px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+
+.c13 {
+  display: block;
+  font-size: 14px;
+  color: #0c3c3d;
+  font-family: Helvetica Neue;
+  text-transform: capitalize;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.c13:hover {
+  color: inherit;
+}
+
+.c14 {
+  -webkit-flex: display;
+  -ms-flex: display;
+  flex: display;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c15 {
+  margin-right: 30px;
+}
+
+.c16 {
+  border-top: 1px solid #6c6c6c;
+  margin-top: 4rem;
+  margin-bottom: 0;
+  opacity: 0.3;
+}
+
+.c17 {
+  text-align: center;
+  margin: 1.5rem 0;
+  font-size: 12px;
+  color: rgba(108,108,108,0.5);
+}
+
+.c0 {
+  background: url(/assets/hair-cat-header.png) center;
+  background-size: cover;
+  min-height: 680px;
+  padding: 30px 0 0 80px;
+}
+
+.c0 article {
+  max-width: 380px;
+  margin: 22px 0 38px;
+}
+
+.c0 article p {
+  font-size: 18px;
+  font-family: Helvetica Neue;
+  line-height: 26px;
+}
+
+.c1 {
+  font-size: 80px;
+  color: #0c3c3d;
+  font-family: Montserrat;
+  font-weight: 700;
+  padding-top: 6.5rem;
+  text-transform: uppercase;
+  max-width: 600px;
+  margin-bottom: 0;
+  line-height: 98px;
+}
+
+.c3 {
+  padding: 80px 0;
+  text-align: center;
+  color: #0c3c3d;
+}
+
+.c3 h2 {
+  font-size: 36px;
+  font-family: Helvetica Neue;
+  font-weight: 400;
+}
+
+.c4 {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 1;
+}
+
+.c4 img {
+  width: 400px;
+  height: 480px;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.c4.reversed img {
+  margin-left: -9%;
+}
+
+.c5 {
+  margin-left: -9%;
+  position: relative;
+}
+
+.c6 {
+  font-family: Montserrat;
+  font-weight: 700;
+  color: #eeeeee;
+  font-size: 427px;
+}
+
+.c7 {
+  position: absolute;
+  width: 300px;
+  top: 25%;
+  left: 50%;
+  text-align: left;
+}
+
+.c7 h5 {
+  font-size: 21px;
+  font-family: Helvetica Neue;
+  font-weight: 400;
+  margin-bottom: 12px;
+  line-height: 1.45;
+}
+
+.c7 p {
+  line-height: 1.83;
+  font-size: 12px;
+}
+
+.c7.reversed {
+  top: 30%;
+  left: 13%;
+  text-align: right;
+}
+
+.c8 {
+  font-family: Montserrat;
+  font-weight: 700;
+  color: #34d1d1;
+  -webkit-letter-spacing: 2.4px;
+  -moz-letter-spacing: 2.4px;
+  -ms-letter-spacing: 2.4px;
+  letter-spacing: 2.4px;
+  font-size: 12px;
+  margin-bottom: 17px;
+  text-transform: uppercase;
+}
+
+@media (max-width:576px) {
+  .c9 {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width:576px) {
+  .c10 {
+    padding-left: unset;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width:576px) {
+  .c0 {
+    padding: 30px 0 0 40px;
+  }
+}
+
+@media (max-width:576px) {
+  .c1 {
+    max-width: unset;
+    font-size: 50px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width:576px) {
+  .c3 h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width:576px) {
+  .c4 {
+    margin-top: unset;
+  }
+
+  .c4 img {
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+  .c6 {
+    font-size: 395px;
+  }
+}
+
+@media (max-width:576px) {
+  .c6 {
+    font-size: 300px;
+  }
+}
+
+@media (max-width:576px) {
+  .c7 {
+    top: 10%;
+    left: 10%;
+  }
+}
+
+@media (max-width:768px) {
+  .c7 {
+    left: 20%;
+  }
+
+  .c7.reversed {
+    left: 20%;
+  }
+}
+
 <div>
   <main>
     <section
-      class="sc-fzoLsD epcALz"
+      class="c0"
     >
       <svg
-        class="sc-AxirZ ktiAvJ"
+        class=""
       >
         manual.svg
       </svg>
       <h1
-        class="sc-fzpans cQhUVb"
+        class="c1"
       >
         <div>
           Be good
@@ -27,37 +323,37 @@ exports[`Landing page should match snapshot 1`] = `
         </p>
       </article>
       <button
-        class="sc-AxjAm ewqnpQ"
+        class="c2"
       >
         TAKE THE QUIZ
       </button>
     </section>
     <section
-      class="sc-fzplWN kpDZxX"
+      class="c3"
     >
       <h2>
         What we can help with
       </h2>
       <div
-        class="sc-fznyAO kGYtkF"
+        class="c4"
       >
         <img
           alt="hair-loss"
           src="hair-photo.png"
         />
         <div
-          class="sc-fznKkj javTWE"
+          class="c5"
         >
           <span
-            class="sc-fznZeY dtsngr"
+            class="c6"
           >
             01
           </span>
           <article
-            class="sc-fzokOt EwiZm"
+            class="c7"
           >
             <h6
-              class="sc-fzqBZW bpmzeA"
+              class="c8"
             >
               Hair Loss
             </h6>
@@ -71,21 +367,21 @@ exports[`Landing page should match snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-fznyAO kGYtkF reversed"
+        class="c4 reversed"
       >
         <div
-          class="sc-fznKkj javTWE"
+          class="c5"
         >
           <span
-            class="sc-fznZeY dtsngr"
+            class="c6"
           >
             02
           </span>
           <article
-            class="sc-fzokOt EwiZm reversed"
+            class="c7 reversed"
           >
             <h6
-              class="sc-fzqBZW bpmzeA"
+              class="c8"
             >
               Erectile Dysfunction
             </h6>
@@ -104,16 +400,16 @@ exports[`Landing page should match snapshot 1`] = `
       </div>
     </section>
     <footer
-      class="sc-AxiKw dpzIdq"
+      class="c9"
     >
       <div
         class="row"
       >
         <div
-          class="sc-AxhCb hAtPWR col-sm-3 col-12"
+          class="c10 col-sm-3 col-12"
         >
           <svg
-            class="sc-AxirZ bEopbj"
+            class="c11"
             height="75"
             width="80"
           >
@@ -124,27 +420,27 @@ exports[`Landing page should match snapshot 1`] = `
           class="col-sm-2 col-4"
         >
           <h5
-            class="sc-AxhUy kaKyLb"
+            class="c12"
           >
             Product
           </h5>
           <a
-            class="sc-AxgMl gwITOl"
+            class="c13"
           >
             Popular
           </a>
           <a
-            class="sc-AxgMl gwITOl"
+            class="c13"
           >
             Trending
           </a>
           <a
-            class="sc-AxgMl gwITOl"
+            class="c13"
           >
             Guided
           </a>
           <a
-            class="sc-AxgMl gwITOl"
+            class="c13"
           >
             Products
           </a>
@@ -153,27 +449,27 @@ exports[`Landing page should match snapshot 1`] = `
           class="col-sm-2 col-4"
         >
           <h5
-            class="sc-AxhUy kaKyLb"
+            class="c12"
           >
             Company
           </h5>
           <a
-            class="sc-AxgMl gwITOl"
+            class="c13"
           >
             Press Releases
           </a>
           <a
-            class="sc-AxgMl gwITOl"
+            class="c13"
           >
             Mission
           </a>
           <a
-            class="sc-AxgMl gwITOl"
+            class="c13"
           >
             Strategy
           </a>
           <a
-            class="sc-AxgMl gwITOl"
+            class="c13"
           >
             About
           </a>
@@ -182,22 +478,22 @@ exports[`Landing page should match snapshot 1`] = `
           class="col-sm-2 col-4"
         >
           <h5
-            class="sc-AxhUy kaKyLb"
+            class="c12"
           >
             Info
           </h5>
           <a
-            class="sc-AxgMl gwITOl"
+            class="c13"
           >
             Support
           </a>
           <a
-            class="sc-AxgMl gwITOl"
+            class="c13"
           >
             Customer Service
           </a>
           <a
-            class="sc-AxgMl gwITOl"
+            class="c13"
           >
             Get Started Guide
           </a>
@@ -206,29 +502,29 @@ exports[`Landing page should match snapshot 1`] = `
           class="col-sm-3 col-12"
         >
           <h5
-            class="sc-AxhUy kaKyLb"
+            class="c12"
           >
             Follow us
           </h5>
           <div
-            class="sc-AxheI AYPRB"
+            class="c14"
           >
             <span
-              class="sc-Axmtr mRqjV"
+              class="c15"
             >
               <svg>
                 facebook.svg
               </svg>
             </span>
             <span
-              class="sc-Axmtr mRqjV"
+              class="c15"
             >
               <svg>
                 twitter.svg
               </svg>
             </span>
             <span
-              class="sc-Axmtr mRqjV"
+              class="c15"
             >
               <svg>
                 linkedin.svg
@@ -244,14 +540,14 @@ exports[`Landing page should match snapshot 1`] = `
           class="col-sm-12"
         >
           <hr
-            class="sc-AxmLO feTcaa"
+            class="c16"
           />
         </div>
         <div
           class="col-sm-12"
         >
           <div
-            class="sc-fzozJi ifFRQp"
+            class="c17"
           >
             © 2019 Manual. All rights reserved.
           </div>
